@@ -1,0 +1,189 @@
+
+     body {
+         background-color: #3b3b3b;
+       }
+     .contain{
+       width: 710px;
+       height: 450px;
+       padding: 5px;
+       margin: 0 auto;
+       text-align: center;
+       background-color: #424242;
+       border: 2px solid rgb(177, 177, 177);
+       border-radius: 10px;
+     }
+   
+   
+   .stretch {
+           width: 100%;
+           display: inline-block;
+           font-size:0;
+           line-height:0;
+   }
+   
+   .button {
+           position: relative;
+           cursor: pointer;
+           display: inline-block;
+           width: 150px;
+           
+           height: 130px;
+           vertical-align: top;
+           text-align: center;
+           vertical-align: middle;
+           line-height: 100px;
+   }
+   
+   .minibutton {
+           height: 50px;
+           width: 20%;
+           line-height:30px;
+           font-size: 25px;
+           margin: 10px auto;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           color: rgb(26, 68, 45);
+           background-color: rgb(247, 221, 186);
+           border: 3px solid black;
+           text-align: center;
+           align-content: center;
+           align-items: center;
+   }
+ 
+   
+   .output-text {
+           position:relative;
+           height:50px;
+           display: block;
+           width:98%;
+           vertical-align: top;
+           background-color: rgb(51, 51, 51);
+           line-height: 50px;
+           padding-left: 10px;
+           font-size: 40px;
+           border-radius: 20px;
+           color: whitesmoke;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           /*margin: 0 auto;*/
+           
+   }
+   
+   .rouge{
+           color: white;
+           background-color: #690e0e;
+           border: 3px solid black;
+           border-radius: 200px 0 0 0;
+   }
+   
+   /* to do class AND class it turns out it's remove the space
+   WOW that is hard to see*/
+   .rouge.active {
+           background-color: rgb(228, 21, 2);
+           border: 3px solid #FF3333;
+   }
+   
+   .jaune {
+           color: white;
+           background-color: #6e6e02;
+           border: 3px solid black;
+           border-radius: 0 0 200px 0;
+   }
+   
+   .jaune.active {
+           background-color: rgb(223, 223, 13);
+           border: 3px solid #FFFF33;
+   }
+   
+   .vert{
+           color: white;
+           background-color: #036803;
+           border: 3px solid black;
+           border-radius: 0 0 0 200px;
+   }
+   
+   .vert.active {
+           background-color: rgb(6, 221, 6);
+           border: 3px solid #33FF33;
+   }
+   
+   .bleu {
+           color: white;
+           background-color: #03036e;
+           border: 3px solid black;
+           border-radius: 0 200px 0 0;
+   }
+   
+   .bleu.active {
+           background-color: rgb(6, 6, 240);
+           border: 3px solid #3333FF;
+   }
+   
+        #btnStart {
+           background-color: #AAAAAA;
+           border: 3px solid black;
+   }
+   .buttonAll {
+           display: flex;
+           z-index: -5;
+   }
+   
+   .options {
+           color: white;
+           position: fixed;
+           left:0;
+           top:0;
+           display: none;
+           width: 100%;
+           height: 100%;
+           background-color: grey;
+           border: 3px solid black;
+           padding: 5px;
+           
+   }
+   
+   @media screen and (min-width: 701px) {
+     .options {
+       width: 510px;
+       height: 330px;
+       margin:0 auto;
+       top: 25%;
+       right:0;
+     }
+   }
+   
+   @media screen and (min-width: 701px) {
+     .center-me {
+       text-align: center;
+     }
+   }
+   
+   .title {
+           font-size: 50px;
+           color: black;
+           width: 100%;
+           text-align: center;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+   
+   @media screen and (min-width: 701px) {
+     .title {
+       color: white;
+     }
+   }
+   
+   .round-box {
+     background: rgba(70,70,70,0.8);
+     border: 1px solid black;
+     width:80px;
+     height:80px;
+     position: fixed;
+     top:0;
+     right: 0;
+     line-height: 1px;
+     text-align: center;
+     color: #ae3f3f;
+     z-index: 2;
+   }
+   
+   .round-num {
+     font-size: 28px;
+   }
